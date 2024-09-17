@@ -28,6 +28,7 @@ const App = () => {
       })}
       <Total nbrTotalExos={nbrTotalExos} />
     </div>
+    
   );
 };
 
