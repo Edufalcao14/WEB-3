@@ -4,6 +4,9 @@ import './App.css'
 import ClickCounter from './components/click-counter'
 
 function App() {
+  let phrase = 'You are a master in the art of clicking !';
+  let titre = 'Click Counter';
+  let phrase2 = 'Please click on me now !';
   return (
     <>
       <div>
@@ -15,7 +18,7 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <ClickCounter />
+      <ClickCounter titre={titre} phrase={phrase} phrase2={phrase2} />
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
